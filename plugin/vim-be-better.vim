@@ -1,6 +1,6 @@
-if exists("g_loaded_vim-be-better")
+if exists("g_loaded_vimbebetter")
     finish
 endif
-let g:loaded_vim-be-better = 1
+let g:loaded_vimbebetter = 1
 
-command! -nargs=0 VimBeBetter lua require("vim-be-better").vim_be_better()
+command! -nargs=0 VimBeBetter lua require("vim-be-better").open()
