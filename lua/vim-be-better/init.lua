@@ -3,6 +3,6 @@ local menu = require("vim-be-better.menu")
 -- Module objet
 local M = {}
 
-M.open = menu.open
+M.vim_be_better = menu.open
 
 return M
