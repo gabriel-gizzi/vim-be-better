@@ -1,7 +1,7 @@
 -- Module Object
 local M = {}
 
-function open()
+function M.open()
     print("Test")
 end
 
